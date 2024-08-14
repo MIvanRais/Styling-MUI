@@ -1,0 +1,10 @@
+/* Increase the specificity */
+.MuiButtonBase-root.Button {
+  color: black;
+}
+
+/* Increase the specificity */
+.MuiButtonBase-root.Button.Mui-disabled { /* more better */
+  /* .MuiButtonBase-root.Button:disabled { */
+  color: white;
+}
